@@ -1,0 +1,4 @@
+search_bert: Dash app basé sur SBERT
+search_spacy: Pareil mais basé sur Spacy
+opendatascience_module: Package avec la plupart des fonctions pour traiter les fichiers et faire les recherches
+benchmark: permet de benchmarker SBERT (ou Spacy mais il faut changer le code) sur les mot-clés dataset repérer par Etalab (git)

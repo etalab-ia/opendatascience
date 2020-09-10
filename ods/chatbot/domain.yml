@@ -1,0 +1,51 @@
+intents:
+  - greet
+  - welcome
+  - bye
+  - chercher_jdd
+  - inform
+  - user_satisfied
+  - user_not_satisfied
+
+slots:
+  recherche:
+    type: text
+
+responses:
+  utter_welcome_message:
+    - text: "Bonjour, je suis un moteur de recherche conversationnel"
+  utter_greet:
+    - text: "Vous recherchez un jeu de données ? Tapez votre recherche et je vous proposerais une liste de jeux de données "
+      buttons:
+        - title: "Oui ! Taper ma recherche"
+          payload: "/chercher_jdd"
+        - title: "Non, je voulais juste discuter"
+          payload: "utter_bye"
+  utter_ask_recherche:
+    - text: "Tapez votre recherche, une phrase ou meme plusieurs."
+  utter_bye:
+    - text: "Bye!"
+  utter_bad_answer:
+    - text: "Je suis désolé, que voulez-vous faire maintenant?"
+      buttons:
+        - title: "Visiter data.gouv.fr"
+          payload: "/visite"
+        - title: "Reformuler ma recherche"
+          payload: "/chercher_jdd"
+  utter_visite:
+    - text: 'Vous pouvez vous rendre sur data.gouv.fr Merci pour votre échange et à bientôt !'
+  utter_are_you_satisfied:
+    - text: "Etes vous satisfait des résultats?"
+      buttons:
+        - title: "Oui"
+          payload: "/thank"
+        - title: "Non"
+          payload: "/not_happy"
+  utter_happy_bot:
+    - text: 'A votre service(-public) !'
+
+forms:
+  - form_recherche
+
+entities:
+  - recherche

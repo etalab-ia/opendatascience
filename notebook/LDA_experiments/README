@@ -1,0 +1,13 @@
+Sklearn LDA v2 : XP LDA simple
+Sklearn v2 -nodescp : 
+	* Liste faite à la main de 'locs' et 'special_words' pour filtrer.
+Toute une partie Spacy Search 
+	* Petit check pour verifier que l'on peut moyenner les paragraphes avec spacy
+	* Embedding des phrases et recherche KDTree (projections)
+
+	Global Map of producteurs: 
+	Chaque organisation est associée à la liste de tous les tags des fichiers correspondants.
+	Tentatives de regrouper les organisations par thèmes avec projection spacy puis kmeans. 
+	LDA sur les titres des producteurs. 
+
+	Et la version LDA sans description d'un truc un peu final. 

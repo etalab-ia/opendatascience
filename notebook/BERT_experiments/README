@@ -1,0 +1,3 @@
+BERT-FP1: Essais sur modèles BERT, juste charger CamemBERT et FlauBERT. 
+BERT-FP2: Essais avec le format UKPLab et Flaubert + Pooling et phrases exemples simple
+BERT-FP3: Partie Searchh-BERT et Benchmark, dernier modèle

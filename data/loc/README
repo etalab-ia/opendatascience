@@ -1,0 +1,7 @@
++communes_prblm.npy: List of problematic filtered communes : Nom de communes dont le nom du dep/reg apparait.
++locs_org.xlsx : Liste de resultats. Localisations des organisations extraites par des subwords.
++loc_spacy_NER.npy : Array des NER LOCs (locations) detectées par spacy pour chaque dataset
++Catalogue_locs.csv : Catalogue avec une colonne en plus pred_locs qui donne le ncc (nom commune) de l'insee de la prediction de l'algo avec la distance Levenshtein (80%)
++locs_benchmark : Annotation (sur 300 random datasets) algo approche Levenshtein sur tous les datasets (representés par leur texte)
+
+
